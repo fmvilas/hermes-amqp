@@ -1,6 +1,6 @@
 {
   "name": "hermesjs-amqp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AMQP adapter for HermesJS",
   "main": "index.js",
   "repository": "https://github.com/hitchhq/hermes-amqp.git",
