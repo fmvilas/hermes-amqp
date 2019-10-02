@@ -29,6 +29,7 @@ class AmqpAdapter extends Adapter {
       this.options.frameMax = this.options.frameMax || 0;
       this.options.heartbeat = this.options.heartbeat || 0;
       this.options.vhost = this.options.vhost || '/';
+      this.options.exchange = this.options.exchangeOptions || 'amq.topic';
       this.options.exchangeOptions = this.options.exchangeOptions || {};
       this.options.queue = this.options.queue || '';
       this.options.queueOptions = this.options.queueOptions || {};
